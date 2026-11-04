@@ -15,13 +15,19 @@ body {
 nav {
     background-color: steelblue;
     padding: 10px;
-
+    text-align: center;
 }
 
 nav a {
     color: white;
-    padding: 10px;
-    display: block;
+    padding: 8px 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    text-decoration: underline;
 }
 
 main {
@@ -33,7 +39,7 @@ h1 {
 }
 
 main img {
-    width: 150px;
+    width: 200px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
