@@ -14,12 +14,18 @@ body {
 
 nav {
     background-color: steelblue;
+    padding: 10px;
+
 }
 
 nav a {
     color: white;
     padding: 10px;
-    display: inline-block;
+    display: block;
+}
+
+main {
+    max-width: 800px;
 }
 
 h1 {
@@ -63,3 +69,4 @@ footer {
 nav a:hover {
     background-color: rgba(0, 0, 0, 0.2);
     text-decoration: underline;
+}
