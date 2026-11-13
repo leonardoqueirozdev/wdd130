@@ -42,7 +42,6 @@ header img {
     margin: 15px auto;
 }
 
-/* Container Hero com altura mínima para acomodar os elementos absolutos */
 .hero {
     position: relative;
     min-height: 450px;
@@ -91,14 +90,6 @@ header img {
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     text-align: left;
     z-index: 20;
-}
-
-.hero article img {
-    float: right;
-    margin-left: 15px;
-    width: 110px;
-    height: auto;
-    border-radius: 4px;
 }
 
 .socialmedia a, footer a {
