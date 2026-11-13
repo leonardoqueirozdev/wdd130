@@ -88,12 +88,14 @@ header img {
     max-width: 750px;
     width: 90%;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-    text-align: left;
     z-index: 20;
+    text-align: left;
 }
+
 .hero article img {
     float: right;
     margin-left: 15px;
+    margin-bottom: 10px;
     width: 110px;
     height: auto;
     border-radius: 4px;
@@ -122,12 +124,4 @@ footer img {
     object-fit: contain;
     vertical-align: middle;
     margin: 0 5px;
-}
-
-.hero article img {
-    float: right;
-    margin-left: 15px;
-    width: 110px;
-    height: auto;
-    border-radius: 4px;
 }
