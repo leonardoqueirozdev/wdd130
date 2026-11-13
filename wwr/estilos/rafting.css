@@ -107,3 +107,72 @@ header img {
 footer {
     background-color: var(--cor-destaque);
 }
+/* Limita o tamanho dos ícones/imagens no rodapé para não explodirem a tela */
+footer img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    vertical-align: middle;
+    margin: 0 5px;
+}
+
+/* Ajuste no rodapé para alinhar os links corretamente */
+footer .redes-sociais {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+/* Garante que o container Hero tenha espaço para o absolute funcionar direito */
+.hero {
+    position: relative;
+    min-height: 450px; /* Dá altura para o conteúdo absoluto não vazar */
+    text-align: center;
+    background-color: #0d3b66;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.hero h1, 
+.hero article {
+    position: absolute;
+}
+
+.hero h1 {
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(13, 59, 102, 0.9);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 1.6rem;
+    z-index: 2;
+    width: 80%;
+    max-width: 600px;
+}
+
+.hero article {
+    top: 90px; /* Posiciona logo abaixo do título no hero */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    color: #333;
+    padding: 20px;
+    border-radius: 6px;
+    max-width: 750px;
+    width: 90%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    text-align: left;
+    z-index: 20;
+}
+
+.hero article img {
+    float: right;
+    margin-left: 15px;
+    width: 110px;
+    height: auto;
+    border-radius: 4px;
+}
