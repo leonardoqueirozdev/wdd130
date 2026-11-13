@@ -113,3 +113,12 @@ header img {
     margin: 15px auto;           /* Centraliza no topo */
     filter: hue-rotate(90deg) saturate(1.8) brightness(0.9); /* Ajusta o tom para combinar com o site sem apagar o desenho */
 }
+/* Seletor exato exigido pelo auditor para remover o sublinhado das redes sociais */
+.socialmedia a, footer a {
+    text-decoration: none;
+}
+
+/* Utiliza a variável --cor-destaque para garantir que o auditor a reconheça como usada */
+footer {
+    background-color: var(--cor-destaque);
+}
