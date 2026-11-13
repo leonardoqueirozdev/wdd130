@@ -92,27 +92,18 @@ header img {
     border-radius: 4px;
 }
 
-.socialmedia a, footer a {
-    text-decoration: none;
-}
-
 footer {
-    background-color: var(--cor-destaque);
     text-align: center;
     padding: 20px;
 }
 
-footer .redes-sociais {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
+.redes-sociais {
     margin-top: 10px;
 }
 
-footer img {
+.redes-sociais a img {
     width: 24px;
     height: 24px;
-    object-fit: contain;
+    margin: 0 8px;
     vertical-align: middle;
-    margin: 0 5px;
 }
