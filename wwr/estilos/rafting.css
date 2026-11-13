@@ -44,8 +44,11 @@ footer {
 
 .hero {
     position: relative;
-    text-align: center;
-    margin-bottom: 30px;
+}
+
+.hero h1, 
+.hero article {
+    position: absolute;
 }
 
 /* Seção Hero limpa e sem sobreposição */
