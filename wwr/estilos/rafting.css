@@ -91,7 +91,6 @@ header img {
     text-align: left;
     z-index: 20;
 }
-
 .hero article img {
     float: right;
     margin-left: 15px;
@@ -123,4 +122,12 @@ footer img {
     object-fit: contain;
     vertical-align: middle;
     margin: 0 5px;
+}
+
+.hero article img {
+    float: right;
+    margin-left: 15px;
+    width: 110px;
+    height: auto;
+    border-radius: 4px;
 }
