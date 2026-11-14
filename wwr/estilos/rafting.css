@@ -113,4 +113,6 @@ footer {
     margin: 0 8px;
     vertical-align: middle;
 }
-
+.redes-sociais a, .socialmedia a, footer a {
+    text-decoration: none;
+}
