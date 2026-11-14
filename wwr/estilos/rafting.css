@@ -114,6 +114,13 @@ footer {
     vertical-align: middle;
 }
 
-.socialmedia a, .redes-sociais a, footer a {
+.socialmedia a {
     text-decoration: none;
+}
+
+.socialmedia a img {
+    width: 24px;
+    height: 24px;
+    margin: 0 8px;
+    vertical-align: middle;
 }
