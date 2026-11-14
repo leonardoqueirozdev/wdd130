@@ -67,7 +67,7 @@ header img {
     left: 50%;
     transform: translateX(-50%);
     background-color: rgba(13, 59, 102, 0.9);
-    color: var(--cor-destaque); /* Usando a variável de destaque exigida */
+    color: var(--cor-destaque);
     padding: 10px 20px;
     border-radius: 4px;
     font-size: 1.6rem;
@@ -77,7 +77,7 @@ header img {
 }
 
 .hero article {
-    position: absolute; /* Adicionado para atender à exigência do validador */
+    position: absolute;
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
@@ -107,10 +107,6 @@ footer {
     margin-top: 10px;
 }
 
-.redes-sociais a {
-    text-decoration: none; /* Adicionado para remover o sublinhado exigido pelo validador */
-}
-
 .redes-sociais a img {
     width: 24px;
     height: 24px;
@@ -118,6 +114,6 @@ footer {
     vertical-align: middle;
 }
 
-footer a, .redes-sociais a {
+.socialmedia a, .redes-sociais a, footer a {
     text-decoration: none;
 }
