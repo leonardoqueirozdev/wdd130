@@ -117,3 +117,7 @@ footer {
     margin: 0 8px;
     vertical-align: middle;
 }
+
+footer a, .redes-sociais a {
+    text-decoration: none;
+}
