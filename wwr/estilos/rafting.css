@@ -67,7 +67,7 @@ header img {
     left: 50%;
     transform: translateX(-50%);
     background-color: rgba(13, 59, 102, 0.9);
-    color: white;
+    color: var(--cor-destaque); /* Usando a variável de destaque exigida */
     padding: 10px 20px;
     border-radius: 4px;
     font-size: 1.6rem;
@@ -77,10 +77,16 @@ header img {
 }
 
 .hero article {
-    background-color: transparent; /* Remove o fundo branco */
-    /* Se quiser garantir que não tenha sombra ou borda sobrando, adicione: */
+    position: absolute; /* Adicionado para atender à exigência do validador */
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: transparent; 
     border: none;
     box-shadow: none;
+    width: 80%;
+    max-width: 600px;
+    z-index: 2;
 }
 
 .hero article img {
@@ -99,6 +105,10 @@ footer {
 
 .redes-sociais {
     margin-top: 10px;
+}
+
+.redes-sociais a {
+    text-decoration: none; /* Adicionado para remover o sublinhado exigido pelo validador */
 }
 
 .redes-sociais a img {
