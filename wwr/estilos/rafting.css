@@ -103,17 +103,6 @@ footer {
     padding: 20px;
 }
 
-.redes-sociais {
-    margin-top: 10px;
-}
-
-.redes-sociais a img {
-    width: 24px;
-    height: 24px;
-    margin: 0 8px;
-    vertical-align: middle;
-}
-
 .socialmedia a {
     text-decoration: none;
 }
@@ -124,3 +113,4 @@ footer {
     margin: 0 8px;
     vertical-align: middle;
 }
+
