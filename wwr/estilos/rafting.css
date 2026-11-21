@@ -172,15 +172,27 @@ header nav a:hover {
 .galeria-aventura figure {
     text-align: center;
     min-width: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.galeria-aventura figure:hover {
+    z-index: 10;
 }
 
 .galeria-aventura img {
     width: 100%;
     aspect-ratio: 3 / 2;
-    max-height: 85px;
     object-fit: cover;
     border-radius: 4px;
     display: block;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.galeria-aventura figure:hover img {
+    transform: scale(1.5);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+    border: 2px solid var(--cor-destaque);
 }
 
 .galeria-aventura figcaption {
