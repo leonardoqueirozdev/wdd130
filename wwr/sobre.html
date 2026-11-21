@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Página Sobre Nós da empresa de rafting RS BA - Rif Salvador BA. Conheça nossa história e aventura.">
+    <meta name="description" content="Página Sobre Nós da empresa de rafting Rafting Salvador BA. Conheça nossa história e aventuras.">
     <meta name="author" content="Leonardo Queiroz">
     <title>Sobre Nós - Rafting Salvador BA</title>
     <link rel="stylesheet" href="estilos/rafting.css">
@@ -11,7 +11,7 @@
 <body>
     <header>
         <img src="imagens/logo.png" alt="Logotipo da Empresa de Rafting">
-        <nav>
+        <nav aria-label="Navegação principal">
             <ul>
                 <li><a href="index.html">Página Inicial</a></li>
                 <li><a href="sobre.html">Sobre Nós</a></li>
@@ -33,26 +33,53 @@
 
         <section>
             <h2>História</h2>
-            <p>Na <strong>Rif Salvador BA</strong>, especializamo-nos em transformar águas bravas em momentos inesquecíveis. Ao longo dos anos, já realizamos centenas de descidas guiadas, proporcionando segurança, diversão e conexão com a natureza para famílias, equipes corporativas e aventureiros de todo o país.</p>
+            <div class="historia-grid">
+                <p>Na <strong>Rif Salvador BA</strong>, especializamo-nos em transformar águas bravas em momentos inesquecíveis. Ao longo dos anos, já realizamos centenas de descidas guiadas com foco em segurança e conexão com a natureza.</p>
+                <img src="imagens/feliz.jpg" alt="Sorriso após descida de rafting">
+                <p>Recebemos famílias, equipes corporativas e aventureiros de todo o país, unindo guias experientes, equipamentos confiáveis e respeito às águas da Bahia em cada passeio.</p>
+            </div>
         </section>
 
         <section>
             <h2>A aventura está te esperando!</h2>
-            <p>Conheça as nossas principais modalidades de passeios:</p>
-            <ul>
-                <li><strong>Expedição Emoção nas Corredeiras:</strong> Um percurso emocionante pelas corredeiras de classe II e III, ideal para quem busca adrenalina moderada com total segurança e acompanhamento de instrutores especializados.</li>
-                <li><strong>Rafting Família e Iniciantes:</strong> Roteiro planejado para grupos e famílias com crianças, focado na diversão contemplativa, banhos de rio em pontos calmos e vivência guiada na natureza.</li>
-            </ul>
+            <div class="galeria-aventura">
+                <figure>
+                    <img src="imagens/aventura1.jpg" alt="Equipe remando em corredeira">
+                    <figcaption>Corredeira do Rio Jacaré</figcaption>
+                </figure>
+                <figure>
+                    <img src="imagens/aventura2.jpg" alt="Descida em trecho com ondas">
+                    <figcaption>Salto do Rio Negro</figcaption>
+                </figure>
+                <figure>
+                    <img src="imagens/aventura3.jpg" alt="Remada guiada em rio">
+                    <figcaption>Corredeira do Rio Paranapanema</figcaption>
+                </figure>
+                <figure>
+                    <img src="imagens/aventura4.jpg" alt="Rafting em área de mata">
+                    <figcaption>Vale das Águas</figcaption>
+                </figure>
+                <figure>
+                    <img src="imagens/aventura5.jpg" alt="Bote em águas rápidas">
+                    <figcaption>Cânion da Cachoeira</figcaption>
+                </figure>
+            </div>
         </section>
     </main>
 
     <footer>
-    <p>&copy; 2026 - RIF Salvador BA - Leonardo Queiroz Bastos Gomes</p>
-    <nav class="redes-sociais">
-        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><img src="imagens/facebook.svg" alt="Facebook" width="24" height="24"></a>
-        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><img src="imagens/instagram.svg" alt="Instagram" width="24" height="24"></a>
-        <a href="https://www.linkedin.com/in/lgomes-dev" target="_blank" rel="noopener noreferrer"><img src="imagens/linkedin.svg" alt="LinkedIn" width="24" height="24"></a>
-    </nav>
-</footer>
+        <p>&copy; 2026 - RIF Salvador BA - Leonardo Queiroz Bastos Gomes</p>
+        <nav class="socialmedia" aria-label="Redes sociais">
+            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                <img src="imagens/facebook.svg" alt="Facebook" width="24" height="24">
+            </a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                <img src="imagens/instagram.svg" alt="Instagram" width="24" height="24">
+            </a>
+            <a href="https://www.linkedin.com/in/lgomes-dev" target="_blank" rel="noopener noreferrer">
+                <img src="imagens/linkedin.svg" alt="LinkedIn" width="24" height="24">
+            </a>
+        </nav>
+    </footer>
 </body>
 </html>
